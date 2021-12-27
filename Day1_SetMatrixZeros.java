@@ -1,5 +1,7 @@
 package SD_Sheet;
 
+import java.util.Arrays;
+
 public class Day1_SetMatrixZeros {
 	public static void main(String[] args) {
 		int[][] matrix = { { 1, 1, 1 }, { 1, 0, 1 }, { 1, 1, 1 } };
@@ -46,5 +48,6 @@ public class Day1_SetMatrixZeros {
 				matrix[i][0] = 0;
 			}
 		}
+		System.out.println(Arrays.deepToString(matrix));
 	}
 }
